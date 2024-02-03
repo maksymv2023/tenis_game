@@ -1,7 +1,9 @@
 # 1. Create the screen
 
 from turtle import Screen
-from player import Player
+from paddle import Paddle
+from ball import Ball
+import time
 
 screen = Screen()
 screen.bgcolor("black")
@@ -9,17 +11,31 @@ screen.setup(800,600)
 screen.title("Pong Game")
 screen.tracer(0)
 
-player = Player()
-computer = Player()
-player.player_one()
-computer.computer_player()
+r_paddle = Paddle((350, 0))
+l_paddle = Paddle((-350, 0))
+ball = Ball()
+
 screen.listen()
-screen.onkey(player.go_up, "Up")
-screen.onkey(player.go_down, "Down")
+screen.onkey(r_paddle.go_up, "Up")
+screen.onkey(r_paddle.go_down, "Down")
+screen.onkey(l_paddle.go_up, "w")
+screen.onkey(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
+    time.sleep(0.1)
     screen.update()
+    ball.move()
+
+    #Detect collision with wall
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce()
+
+
+
+
+
+
 
 
 
