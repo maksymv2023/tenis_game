@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22975a5-f275-4853-bd50-3b9822aa89d4" name="Changes" comment="working on Pong game Day2">
-      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="f22975a5-f275-4853-bd50-3b9822aa89d4" name="Changes" comment="working on Pong game Done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,12 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706974774472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working on Pong game Done">
+      <option name="closed" value="true" />
+      <created>1707224853881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707224853881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working on Pong game Day1" />
     <MESSAGE value="working on Pong game Day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on Pong game Day2" />
+    <MESSAGE value="working on Pong game Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on Pong game Done" />
   </component>
 </project>
