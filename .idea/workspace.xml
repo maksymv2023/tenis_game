@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22975a5-f275-4853-bd50-3b9822aa89d4" name="Changes" comment="working on Pong game Day1">
-      <change afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
+    <list default="true" id="f22975a5-f275-4853-bd50-3b9822aa89d4" name="Changes" comment="working on Pong game Day2">
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706884998414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working on Pong game Day2">
+      <option name="closed" value="true" />
+      <created>1706974774472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706974774472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working on Pong game Day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on Pong game Day1" />
+    <MESSAGE value="working on Pong game Day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on Pong game Day2" />
   </component>
 </project>
